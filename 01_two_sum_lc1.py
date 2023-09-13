@@ -8,7 +8,7 @@ class Solution:
     # return: a list of 2 integers (indexes of elements that sum to target)
     def twoSum(self, nums: List[int], target: int) -> List[int]:
 
-        # Maintain a lookup/dictionary to see if an element exists
+        # maintain a lookup/dictionary to see if an element exists
         lookup = {}
         for i, n in enumerate(nums):
             # we have n, to find the number that sums to target:
