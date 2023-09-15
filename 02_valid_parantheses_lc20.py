@@ -1,4 +1,5 @@
-# LeetCode 20
+# https://leetcode.com/problems/valid-parentheses/
+
 class Solution:
     # @param1: string of parantheses
     # return: bool, valid: True/False
